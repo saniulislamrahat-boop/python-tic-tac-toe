@@ -40,7 +40,7 @@ This was one of my first complete game projects after learning Python, and it he
 ---
 
 🤖 Built with AI help
-The Player vs Bot mode —specifically the bot's decision-making logic
+The Player vs Bot mode specifically the bot's decision-making logic
 
 The Easy bot (random moves)
 
