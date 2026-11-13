@@ -11,7 +11,7 @@ This was one of my first complete game projects after learning Python, and it he
 ## ✨ Features
 
 - 🎯 **Two game modes**
-  - **Player vs Player** – two humans take turns on the same board
+  - **Player vs Player**  two humans take turns on the same board
   - **Player vs Bot** – play against the computer
 - 🤖 **Three AI difficulties**
   - **Easy** – bot plays random moves
@@ -39,10 +39,22 @@ This was one of my first complete game projects after learning Python, and it he
 
 ---
 
+🤖 Built with AI help
+The Player vs Bot mode —specifically the bot's decision-making logic
+
+The Easy bot (random moves)
+
+The Medium bot (win/block logic)
+
+The Hard bot (Minimax algorithm with depth-based scoring)
+
+For this part, I used DeepSeek AI as a learning assistant. I described what I wanted the bot to do, worked through the logic with the AI, tested the results, and integrated the bot into the existing game I had already written. This was a great way for me to understand how game AI and the Minimax algorithm actually work in practice.
+
+💡 Why I'm sharing this: I believe in being honest about how a project was made. Using AI as a learning tool to understand new concepts like Minimax is a valid way to grow as a developer, as long as the work is understood and not just copy-pasted. Everything in this project was reviewed, tested, and integrated by me.
 ## 🧩 Requirements
 
 - **Python 3.10+**
-- **pygame-ce** (Community Edition of Pygame — drop-in replacement, actively maintained and supports newer Python versions like 3.14)
+- **pygame-ce** (Community Edition of Pygame  drop-in replacement, actively maintained and supports newer Python versions like 3.14)
 
 > ⚠️ **Why `pygame-ce` and not `pygame`?** The original `pygame` package currently has no pre-built wheels for Python 3.14 on Windows, so installation fails. `pygame-ce` installs cleanly and your code still uses `import pygame` as usual.
 
